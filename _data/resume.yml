@@ -120,10 +120,18 @@ main: #简历主要内容，
   name: 发表论文
   content: #选择需要的格式
   - title: CQpy A Handy Code Quality Inspector for Online Python Programming Courses
+    authors: Xiao Liu, Gyun Woo
     duration: Vol. 37(6), 2021
     sub: International Journal of Engineering Education (IJEE) (Indexed by SCIE)
-#  - 单行文字
-#  - 如果有可以继续添加
+  - title: CodeHelper A Web-Based Lightweight IDE for E-Mentoring in Online Programming Courses
+    duration: "2021年6月"
+    sub: 2021 3rd International Conference on Computer Communication and the Internet (Indexed by Scopus)
+  - title: Analyzing the Code Quality Issues in Java Programming Assignments
+    duration: "2020年6月"
+    sub: 2020年大韩工学会夏季会议
+  - title: Applying Code Quality Detection in Online Programming Judge
+    duration: "2020年2月"
+    sub: Applying Code Quality Detection in Online Programming Judge (Indexed by Scopus)
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
