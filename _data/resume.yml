@@ -5,7 +5,7 @@ title: "柳潇的简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "柳潇（Liu Xiao）"
 jobtitle: "" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "assets/img/liu.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -30,80 +30,115 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 釜山大学
+    duration: "2014年9月 - 2022年2月"
+    sub: 硕博连读
+    detail: 计算机工程
+  - title: 釜山大学
+    duration: "2010年9月 - 2014年8月"
+    sub: 本科
+    detail: 计算机工程
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - C/C++
+    - Python
+    - Java
+    - HTML. CSS, JavaScript
+    - Haskell
+    - Ruby
+    - Go
+  - title: 外语
+    summary: 熟练掌握英语的听说读写；擅长运用韩语在多领域沟通
 
 - type: experience
   name: 经验
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 博士后研究员
+    sub: 釜山大学
+    duration: "2022年4月 - 2023年3月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    # - 标签
+    summary: 计算机高等教育, 代码自动评测系统
+    # detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  # - title: Job Title
+    # sub: Your 2nd, Inc.  
+    # duration: Apr 2013 - Mar 2016
+    # tags: 
+    # - tagname
+    # summary: Summary your job or work. (Collapse)
+    # detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 研究工作
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: CodeHelper
+    duration: 2021年 - 2021年
+    detail: 网课期间在线代码辅导系统, 支持实时代码共享、编译、测试。
+    sub: 主要开发者
+  - title: CQx
+    duration: 2019年 - 2021年
+    detail: 基于SonarQube的面向学生的在线代码质量检查系统, 支持C/++，Java，Python，以及Haskell。
+    sub: 主要开发者
+  - title: NeoESPA
+    duration: 2015年 - 2021年
+    detail: 多功能在线学生代码测评系统，支持多种编程语言，代码语法检查，运行结果评分，以及代码抄袭检查；现已整合CodeHelper和CQx。
+    sub: 主要开发者, 维护者
+  - title: 软件保护壳检测器的规避技术
+    duration: 2017年 - 2018年
+    detail: 一项检测软件破解技术的研究，揭示了多种用于躲避脱壳器识别的加壳方法
+    sub: 共同开发者
+  - title: C#程序的反混淆技术
+    duration: 2017年 - 2017年
+    detail: 研究和比较了多种用于C#代码编写的程序的反混淆技术
+    sub: 共同开发者
+  - title: ARM二进制代码转LLVM中间端表达式的翻译器
+    duration: 2016年 - 2016年
+    detail: 一种基于de4dot的反编译器，可将已经编译好的ARM二进制可执行文件反编译成基于LLVM IR语法的可读代码。
+    sub: 共同开发者
+  - title: 基于Haskell的Web应用框架
+    duration: 2015年 - 2016年
+    detail: 通过优化Haskell的Yesod库，提供一个可快速开发和部署的高效率、高性能的用于Web应用开发的框架。
+    sub: 主要开发者
+  - title: 面向SoC的GDB优化和移植
+    duration: 2014年 - 2015年
+    detail: 通过定向修改和自我编译GDB，为特定SoC定制和开发一款轻量级调试工具。
+    sub: 共同开发者
+  # - title: Project Name
+    # summary: Projects' introduction or summary
+    # detail:
+      # md: _data/demo.md
+    # sub: Creator and maintainer.
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
-#- type: 
-#  name: '其他'
-#  content: #选择需要的格式
+# others: #其他列表显示
+# - type: others #ID可以为空
+  # name: '其他'
+  # content: #选择需要的格式
+  # - 单行文字
+  # - title: "加粗:"
+    # text: "列表项二"
+  # - title: "兴趣:"
+    # items: #单行列表
+    # - 睡觉
+    # - 吃饭
+    # - codinAg
+  # - title: 列表
+    # list:s
+    # - 第一项
+    # - 第二项
+- type: publications
+ name: '发表论文'
+ content: #选择需要的格式
+  - title: CQpy: A Handy Code Quality Inspector for Online Python Programming Courses
+    duration: Vol. 37(6), 2021
+    sub: International Journal of Engineering Education (IJEE) (Indexed by SCIE)
 #  - 单行文字
 #  - 如果有可以继续添加
 
@@ -111,10 +146,10 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  - text: "中文简历"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+  - text: "English version of Résumé"
+    href: "https://awesome-liuxiao.github.io/mypage/work/2022/02/10/my-resume.html"
 
 #页面额外js脚本，如xx统计
 scripts:
