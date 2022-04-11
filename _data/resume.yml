@@ -47,12 +47,12 @@ main: #简历主要内容，
     - C/C++
     - Python
     - Java
-    - HTML. CSS, JavaScript
+    - HTML, CSS, JavaScript
     - Haskell
     - Ruby
     - Go
   - title: 外语
-    summary: 熟练掌握英语的听说读写；擅长运用韩语在多领域沟通
+    summary: 熟练掌握英语的听说读写，擅长运用韩语在多领域沟通
 
 - type: experience
   name: 经验
@@ -123,7 +123,7 @@ main: #简历主要内容，
   -sub: 导师：Woo, Gyun
 
 - type: publications
-  name: 发表论文  （第一作者）
+  name: 发表论文
   content: #选择需要的格式
   - title: CQpy A Handy Code Quality Inspector for Online Python Programming Courses
     sub: Xiao Liu, Gyun Woo
