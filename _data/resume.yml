@@ -89,10 +89,10 @@ main: #简历主要内容，
     duration: 2015年 - 2021年
     detail: 多功能在线学生代码测评系统，支持多种编程语言，代码语法检查，运行结果评分，以及代码抄袭检查；现已整合CodeHelper和CQx。
     sub: 主要开发者, 维护者
-  - title: 软件保护壳检测器的规避技术
-    duration: 2017年 - 2018年
-    detail: 一项检测软件破解技术的研究，揭示了多种用于躲避脱壳器识别的加壳方法
-    sub: 共同开发者
+  - title: Yepures框架 
+    duration: 2019年
+    detail: 优化了PureScript编程语言，简化了其函数式编程的语法，提高了代码编写的效率。
+    sub: 主要开发者
   - title: C#程序的反混淆技术
     duration: 2017年 - 2017年
     detail: 研究和比较了多种用于C#代码编写的程序的反混淆技术
@@ -117,13 +117,13 @@ main: #简历主要内容，
    #可继续添加更多内容
 
 - type: dissertation
-  name: 博士学位论文
+  name: 博士论文
   content:
   - title: Automatic Assassment and Collaborative Mentoring System for Programming Education
-  -sub: "导师：Woo, Gyun"
+  -sub: 导师：Woo, Gyun
 
 - type: publications
-  name: 发表论文 （第一作者）
+  name: 发表论文  （第一作者）
   content: #选择需要的格式
   - title: CQpy A Handy Code Quality Inspector for Online Python Programming Courses
     sub: Xiao Liu, Gyun Woo
