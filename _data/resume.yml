@@ -116,27 +116,10 @@ main: #简历主要内容，
     # sub: Creator and maintainer.
    #可继续添加更多内容
 
-#others 其他简略内容(列表)
-# others: #其他列表显示
-# - type: others #ID可以为空
-  # name: '其他'
-  # content: #选择需要的格式
-  # - 单行文字
-  # - title: "加粗:"
-    # text: "列表项二"
-  # - title: "兴趣:"
-    # items: #单行列表
-    # - 睡觉
-    # - 吃饭
-    # - codinAg
-  # - title: 列表
-    # list:s
-    # - 第一项
-    # - 第二项
 - type: publications
- name: '发表论文'
- content: #选择需要的格式
-  - title: CQpy: A Handy Code Quality Inspector for Online Python Programming Courses
+  name: 发表论文
+  content: #选择需要的格式
+  - title: CQpy A Handy Code Quality Inspector for Online Python Programming Courses
     duration: Vol. 37(6), 2021
     sub: International Journal of Engineering Education (IJEE) (Indexed by SCIE)
 #  - 单行文字
