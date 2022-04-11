@@ -132,7 +132,7 @@ main: #简历主要内容，
   - title: CodeHelper A Web-Based Lightweight IDE for E-Mentoring in Online Programming Courses
     sub: Xiao Liu, Gyun Woo
     duration: "2021年6月"
-    detail: 2021 3rd International Conference on Computer Communication and the Internet (Indexed by Scopus)
+    detail: 2021 3rd International Conference on Computer Communication and the Internet (ICCCI 2021) (Indexed by Scopus)
   - title: Analyzing the Code Quality Issues in Java Programming Assignments
     sub: Xiao Liu et. al
     duration: "2020年8月"
@@ -140,11 +140,11 @@ main: #简历主要内容，
   - title: Applying Code Quality Detection in Online Programming Judge
     sub: Xiao Liu, Gyun Woo
     duration: "2020年2月"
-    detail: 5th International Conference on Intelligent Information Technology (Indexed by Scopus)
+    detail: 5th International Conference on Intelligent Information Technology (ICIIT 2020) (Indexed by Scopus)
   - title: Using SonarQube to Evaluate the Code Quality of C/C++
     sub: Xiao Liu et. al
     duration: "2019年6月"
-    detail: 2019 Korea Computer Congress
+    detail: 2019 Korea Computer Congress (KCC 2019)
   - title: A Partial Grading Method Using Pattern Matching for Programming Assignments
     sub: Xiao Liu et. al
     duration: "2019年4月"
@@ -156,11 +156,11 @@ main: #简历主要内容，
   - title: YapuresPlus An Optimized Efficient Framework to Guarantee Safety of JavaScript
     sub: Xiao Liu, Gyun Woo
     duration: "2019年2月"
-    detail: 4th International Conference on Intelligent Information Technology (Indexed by Scopus)
+    detail: 4th International Conference on Intelligent Information Technology (ICIIT 2019) (Indexed by Scopus)
   - title: Yapures A Convenient Framework for Writing Safe JavaScript Code
     sub: Xiao Liu et. al
     duration: "2018年6月"
-    detail: 2018 Korea Computer Congress
+    detail: 2018 Korea Computer Congress (KCC 2018)
   - title: Analysis of the Parallel Programming Model in Haskell for Many-Core Systems
     sub: Xiao Liu et. al
     duration: "2018年4月"
@@ -184,7 +184,7 @@ main: #简历主要内容，
   - title: An Integrated FTP Supported RWD Web Development System
     sub: Xiao Liu et. al
     duration: "2015年6月"
-    detail: 2015 Korea Computer Congress
+    detail: 2015 Korea Computer Congress (KCC 2015)
   - title: GCaaS A Light-weight Grid Computing Web Application
     sub: Xiao Liu et. al
     duration: "2015年4月"
