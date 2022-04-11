@@ -120,7 +120,7 @@ main: #简历主要内容，
   name: 博士论文
   content:
   - title: Automatic Assassment and Collaborative Mentoring System for Programming Education
-  -sub: 导师：Woo, Gyun
+    sub: 导师：Woo, Gyun
 
 - type: publications
   name: 发表论文
