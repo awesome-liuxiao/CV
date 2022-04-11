@@ -116,22 +116,83 @@ main: #简历主要内容，
     # sub: Creator and maintainer.
    #可继续添加更多内容
 
+- type: dissertation
+  name: 博士学位论文
+  content:
+  - title: Automatic Assassment and Collaborative Mentoring System for Programming Education
+  -sub: "导师：Woo, Gyun"
+
 - type: publications
-  name: 发表论文
+  name: 发表论文 （第一作者）
   content: #选择需要的格式
   - title: CQpy A Handy Code Quality Inspector for Online Python Programming Courses
-    authors: Xiao Liu, Gyun Woo
+    sub: Xiao Liu, Gyun Woo
     duration: Vol. 37(6), 2021
-    sub: International Journal of Engineering Education (IJEE) (Indexed by SCIE)
+    detail: International Journal of Engineering Education (IJEE) (Indexed by SCIE)
   - title: CodeHelper A Web-Based Lightweight IDE for E-Mentoring in Online Programming Courses
+    sub: Xiao Liu, Gyun Woo
     duration: "2021年6月"
-    sub: 2021 3rd International Conference on Computer Communication and the Internet (Indexed by Scopus)
+    detail: 2021 3rd International Conference on Computer Communication and the Internet (Indexed by Scopus)
   - title: Analyzing the Code Quality Issues in Java Programming Assignments
-    duration: "2020年6月"
-    sub: 2020年大韩工学会夏季会议
+    sub: Xiao Liu et. al
+    duration: "2020年8月"
+    detail: Summer Annual Conference of IEIE
   - title: Applying Code Quality Detection in Online Programming Judge
+    sub: Xiao Liu, Gyun Woo
     duration: "2020年2月"
-    sub: Applying Code Quality Detection in Online Programming Judge (Indexed by Scopus)
+    detail: 5th International Conference on Intelligent Information Technology (Indexed by Scopus)
+  - title: Using SonarQube to Evaluate the Code Quality of C/C++
+    sub: Xiao Liu et. al
+    duration: "2019年6月"
+    detail: 2019 Korea Computer Congress
+  - title: A Partial Grading Method Using Pattern Matching for Programming Assignments
+    sub: Xiao Liu et. al
+    duration: "2019年4月"
+    detail: 2019 IEEE International Conference on Applied System Innovation (ICASI 2019) (Indexed by Scopus)
+  - title: Using SonarQube to Enhance the Accuracy of Programming Assignment Evaluation
+    sub: Xiao Liu, Gyun Woo
+    duration: "2019年3月"
+    detail: 13th International Technology, Education and Development Conference (INTED 2019)
+  - title: YapuresPlus An Optimized Efficient Framework to Guarantee Safety of JavaScript
+    sub: Xiao Liu, Gyun Woo
+    duration: "2019年2月"
+    detail: 4th International Conference on Intelligent Information Technology (Indexed by Scopus)
+  - title: Yapures A Convenient Framework for Writing Safe JavaScript Code
+    sub: Xiao Liu et. al
+    duration: "2018年6月"
+    detail: 2018 Korea Computer Congress
+  - title: Analysis of the Parallel Programming Model in Haskell for Many-Core Systems
+    sub: Xiao Liu et. al
+    duration: "2018年4月"
+    detail: 2018 IEEE International Conference on Applied System Innovation (ICASI 2018) (Indexed by Scopus)
+  - title: Analyzing Obfuscated .NET Programs Using Debugging Tools
+    sub: Xiao Liu et. al
+    duration: "2017年12月"
+    detail: The 3rd International Workshop on Convergence Information Technology (IWCIT 2017)
+  - title: YesWeb A Concise Web Development Framework Based on Haskell
+    sub: Xiao Liu et. al
+    duration: Vol. 95, No. 18, 2017
+    detail: Journal of Theoretical and Applied Information Technology (JATIT) (Indexed by Scopus)
+  - title: CDLint A Cloud Service for Dynamic Analysis of JavaScript Code
+    sub: Xiao Liu et. al
+    duration: "2017年4月"
+    detail: 2017 KIPS Spring Conference
+  - title: YesWeb A Concise Web Development Framework Based on Haskell
+    sub: Xiao Liu et. al
+    duration: "2016年12月"
+    detail: International Conference on Computing Convergence and Applications(ICCCA 2016)
+  - title: An Integrated FTP Supported RWD Web Development System
+    sub: Xiao Liu et. al
+    duration: "2015年6月"
+    detail: 2015 Korea Computer Congress
+  - title: GCaaS A Light-weight Grid Computing Web Application
+    sub: Xiao Liu et. al
+    duration: "2015年4月"
+    detail: 2015 KIPS Spring Conference
+  - title: NeoESPA -A New Evaluation System for Programming Assignments
+    sub: Xiao Liu et. al
+    duration: "2015年1月"
+    detail: 2015 International Conference on Electronics, Information and Communication (ICEIC 2015)
 
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
